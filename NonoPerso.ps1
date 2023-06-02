@@ -2,8 +2,12 @@
 # $NameAppTask = "Thunderbird"
 # $GroupIdFrench = "BUILTIN\Administrateurs" # English "BUILTIN\Administrators"
 
-$PathApp = "$env:USERPROFILE\Documents\8.Github\windows-desktop-switcher\desktop_switcher.ahk"
-$NameAppTask = "WindowsDesktopSwitcher"
+# $PathApp = "$env:USERPROFILE\Documents\8.Github\windows-desktop-switcher\desktop_switcher.ahk"
+# $NameAppTask = "WindowsDesktopSwitcher"
+# $GroupIdFrench = "BUILTIN\Administrateurs" # English "BUILTIN\Administrators"
+
+$PathApp = "$env:USERPROFILE\Documents\1.Scripts\.exe_Files\WindowsVirtualDesktopHelper.exe"
+$NameAppTask = "WindowsVirtualDesktopHelper"
 $GroupIdFrench = "BUILTIN\Administrateurs" # English "BUILTIN\Administrators"
 
 $A = New-ScheduledTaskAction -Execute $PathApp
